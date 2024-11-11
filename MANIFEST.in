@@ -1,0 +1,2 @@
+include src/bot-safe-agents/*.py
+include src/bot-safe-agents/*.txt

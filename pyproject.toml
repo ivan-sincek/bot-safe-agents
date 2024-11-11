@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=75.3.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bot-safe-agents"
+version = "1.0"
+authors = [{ name = "Ivan Sincek" }]
+description = "A library for fetching a list of bot-safe user agents."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/ivan-sincek/bot-safe-agents"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["user_agents.txt"]
