@@ -19,6 +19,9 @@ dependencies = []
 [project.urls]
 "Homepage" = "https://github.com/ivan-sincek/bot-safe-agents"
 
+[tool.setuptools]
+license-files = []
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
