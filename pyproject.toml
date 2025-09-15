@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bot-safe-agents"
-version = "1.0"
+version = "1.1"
 authors = [{ name = "Ivan Sincek" }]
 description = "A library for fetching a list of bot-safe user agents."
 readme = "README.md"

@@ -32,7 +32,7 @@ python3 -m pip install --upgrade build
 
 python3 -m build
 
-python3 -m pip install dist/bot-safe-agents-1.0-py3-none-any.whl
+python3 -m pip install dist/bot-safe-agents-1.1-py3-none-any.whl
 ```
 
 ## Usage
